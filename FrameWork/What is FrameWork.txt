@@ -1,0 +1,14 @@
+What is FrameWork?
+
+1)It is a platform to develop Software Application.
+------------------------------------------------------------------------
+2)A framework is a pre-built, structured set of tools, libraries,
+and best practices that developers can use to build software application..
+-------------------------------------------------------------------------------------
+It provides a foundation that simplifies and accelerates the development process by
+offering reusable components, standardized patterns, and a common structure.
+
+-------------------------------------------------------------------------------------
+
+It Providies the common structure to develop applications
+So that developers dont have to work from the scratch..

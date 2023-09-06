@@ -1,0 +1,10 @@
+Lets see teh file and folder structure in Laravel..
+Folder strcuture where we write..
+
+HTML
+Model
+Controller
+Routing
+File storage
+Config
+Dependency file

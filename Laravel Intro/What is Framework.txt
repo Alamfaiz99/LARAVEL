@@ -1,0 +1,10 @@
+What is FrameWork?
+1)A framework is a programmming tool 
+  that provides ready made function classes variables and features
+  for fast development
+    Features Like
+1)Routing
+2)Easy Database Connection
+3)Managed code
+4)Ready made function for session
+5)Helpers It has a large ommunity

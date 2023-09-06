@@ -1,0 +1,29 @@
+Artisan is a powerful command-line tool that comes bundled with the Laravel PHP framework..
+------------------------------------------------------------------------------------------
+It's designed to simplify various development tasks, automate repetitive processes,
+and provide a range of useful commands for Laravel developers.
+-------------------------------------------------------------------------------------------
+Artisan commands cover a wide array of functionalities, including code generation
+, database migrations, job scheduling, and more.
+----------------------------------------------------------------------------------------
+1)CLI-->Accessed through command line..
+        php artisan
+2)Code generation-Artisan provides command for generating boilerpalte code
+                  ssuch as controllers,models,migrations and more..
+                  php artisan make:controller
+3)Database Migrations: It provides tools for managing database migrations, 
+  making it easy to create and modify database tables and schemas without writing raw SQL queries.
+4)Task Scheduling:php artisan schedule:run
+5)Tinker-->Laravel Tinker,php artisan tinker
+           allows interactive PHP REPL (Read-Eval-Print Loop) for quick testing and debugging.
+6)Custom Commands: Developers can also create custom Artisan commands 
+                  to suit specific project requirements, enhancing the framework's flexibilit
+------------------------------------------------------------------------------
+VVVVIMPPPPPPPPPPPPPPPPPPPPPP---->
+php artisan schedule:run
+
+
+Here-->schedule specifies--->namepace or goup od commands
+       run------------------>speciies specific command inside schedule
+       :----->specific command access krne k liye
+       

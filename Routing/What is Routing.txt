@@ -1,0 +1,28 @@
+What is Routing in laravel?
+Routing is the process of determining the best path for a packet to travel from its source to its destination. 
+It is performed by routers, which are devices that connect different networks.
+
+------------------------------------------------------------------------------------
+There are two main types of routing: static and dynamic.
+ Static routing is where the routes are manually configured by the network administrator. 
+ Dynamic routing is where the routers use routing protocols to exchange information
+  about the network topology and dynamically determine the best routes.
+----------------------------------------------------------------------------------
+The routing process involves the following steps:
+
+The router receives a packet from a sender.
+The router looks up the destination IP address in its routing table.
+If the destination IP address is in the routing table, the router knows the next hop router to forward the packet to.
+The router forwards the packet to the next hop router.
+The next hop router repeats steps 2-4 until the packet reaches its destination.
+-------------------------------------------------------------------------------------
+
+The routing table is a database that stores information about the routes to different destinations. 
+The routing table includes the following information for each route:
+
+Destination IP address
+Next hop router
+Cost of the route-The cost of the route is a measure of the distance between the router and the destination
+Metric used to determine the best route
+-----------------------------------------------------------------------------------------
+Link:https://www.youtube.com/watch?v=1_F7gPyXv-8&t=24s

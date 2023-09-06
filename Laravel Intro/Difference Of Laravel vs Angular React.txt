@@ -1,0 +1,19 @@
+What is the differemnce bw Laravel and (React and Angular Framework)
+1)Laravel is server side framework
+2)It can connect with the Database
+3)Angular needs API for database connectivity
+4)Angular need a backend Framework
+
+------------------------------------------------
+
+
+For single Page application we use React and Angular
+
+-----------------------------------------------
+
+You cannot make using Laravel
+
+
+---------------------------------------------------
+
+With the help of Laravel we can create API

@@ -1,0 +1,17 @@
+Major Topics that we will cover
+
+1)What is Laravel,Framework,Composer
+
+2)Installing php, Composer Laravel
+
+3)MVC
+
+4)Basic
+
+5)Controller
+
+6)Routing
+
+7)Model
+
+8)View

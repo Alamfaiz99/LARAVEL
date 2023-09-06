@@ -1,0 +1,70 @@
+1)MVC Pattern Overview:
+
+MVC stands for Model-View-Controller.
+It's an architectural pattern used in software development to organize and structure applications.
+It separates an application into three distinct components: Model, View, and Controller.
+
+2)Components of MVC:
+----------------------------------------------
+Model: Responsible for managing data-related logic.
+
+Handles data transfer between View and Controller.
+Manages business logic-related data.-->Means logics like algo which you have written for the purpose
+
+Examples: Customer object managing data retrieval, manipulation, and updates.
+
+-------------------------------------------
+View: Handles user interface (UI) logic.
+
+Deals with UI components such as text boxes, dropdowns, etc.
+Presents data to the user and receives user input.
+Example: Customer view displaying UI elements for user interaction.
+-----------------------------------------------
+Controller: Acts as an intermediary.
+
+Processes business logic and incoming requests.
+Communicates with Model to manipulate data.
+Interacts with View to render the final output.
+Example: Customer controller managing interactions between Customer Model and View.
+-----------------------------------------------------------------------------------
+
+3)Roles of Each Component:
+
+Model:
+
+Manages data and database-related operations.
+Handles business logic.
+Performs data manipulation and storage.
+
+View:
+
+Handles UI components and layout.
+Displays data to users.
+Receives and forwards user input.
+
+Controller:
+
+Orchestrates communication between Model and View.
+Handles user requests and input.
+Executes business logic and updates data.
+
+4)Interaction Flow:
+
+A user interacts with the View.
+The View forwards user input to the Controller.
+The Controller processes input, interacts with the Model if needed, and updates data.
+The Controller decides which View to display next and updates it.
+The View displays the updated data or UI to the user.
+
+5)Benefits of MVC:
+
+Clear separation of concerns: Each component has a specific role.
+Modularity and maintainability: Components can be developed and modified independently.
+Reusability: Components can be reused in different parts of the application.
+Scalability: The structure allows for easier scaling and expansion.
+
+6)Application in Web Development:
+
+MVC is commonly used in web development frameworks.
+Helps in creating scalable and extensible web projects.
+Organizes code for better development and maintenance.

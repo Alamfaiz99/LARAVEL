@@ -1,0 +1,17 @@
+What is Kernal.php in laravel App?
+The Console Kernel is used when you interact with your application from the command line. 
+If you use artisan, or when a scheduled job is processed, 
+or when a queued job is processed, all of these actions go through the Console Kernel.
+
+------------------------------------------------------------------------------------
+What is the difference bw Console and Terminal?
+Terminal-->In any other paltforn other than windows
+The application that you use to type the commands toa cmd 
+application or shell of any kind ..
+The application You are uusing is known as Terminal.
+-----------------------------------------------------------------------------
+It takes the keyboard input-->ANd send it to the application on the other end
+
+----------------------------------------------------------------------------
+In windows we call it as wwindows console..
+That does the same task.

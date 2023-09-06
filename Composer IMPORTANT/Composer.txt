@@ -1,0 +1,25 @@
+What is Composer?
+
+1)A dependency manager for php
+  For example-->Dependency manager-->in order to fasten the development process
+                we use external packages and libraries
+                It manages-->external libraries-->With the help of
+                method in composer -->It will install the package and library in your web application
+2)Install package using single command
+
+3)Can update version,packkages,framework etc;
+
+4)Composer can be used with any framework..
+
+5)It is similar like npm in nodejs
+
+----------------------------------------------------------------------------------------------
+
+Steps to use composer
+
+1)Install Composer
+2)Install Laravel
+3)Make project
+4)Run Project
+
+-----------------------------------------------------------------------------------------------

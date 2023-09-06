@@ -1,0 +1,18 @@
+Routing protocols Type-->Used By Dynamic Routing Protocols
+
+ISP-->Internet service Provider ()-->Jio,Vodaphone
+
+They have to register themselves if they want to take part in
+Networking and Internet.
+
+They will get a Name after Registration-->AS(Autonomous System)
+
+What is ASN(Autonomous System name)?
+It is the name given by IANA to any company who wants to register themselves in Networking and Internet.
+
+IGP(Interior Gateway Protocol)-->Used inside a single compaany(ISP)
+EGP(Exterior Gateway Protocol)-->used to connext two or more IGPS
+
+
+--------------------------------------------------------------------------------------------------------
+

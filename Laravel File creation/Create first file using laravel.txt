@@ -1,0 +1,14 @@
+Create First File Uisng Laravel..
+
+1)Make First change in file..(How u can make changes to the first file)
+
+2)Create First File(How u can crreate ur own first file)
+
+3)Interview Questions
+
+--------------------------------------------------------------------------
+Resources-->Views-->Welcome.blade.php
+
+(We all know View is related to UI interpret data and show to the user)
+
+-----------------------------------------------------------------------!

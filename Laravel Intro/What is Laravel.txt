@@ -1,0 +1,6 @@
+What is Laravel?
+1)PHP framework
+2)To develop web app and API
+3)MVC(Model View Controller)
+4)Easy to use and learn
+5)Most used php framework

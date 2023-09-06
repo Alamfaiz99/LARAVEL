@@ -1,0 +1,31 @@
+Minor Topics to be Covered
+
+1)Session
+
+2)Form and Input
+
+3)Blade Template
+
+4)Daatabase connectivity
+
+5)Migration
+
+6)Seeding
+
+7)Middleware
+
+8)Form validation
+
+9)Flash Session
+
+10)Git and Laravel
+
+11)API
+
+12)Auth Token
+
+13)API validation
+
+14)Components 
+
+15)Styles

@@ -1,0 +1,22 @@
+Install Laravel In the App----->
+
+1)Check Composer is installed or not
+2)Install the Lavavel Globally
+3)Install Laravel App
+4)Start the app and check everything is working fine or not
+------------------------------------------------------------
+
+composer global require laravel/installer
+
+C:\Users\alams>laravel --version
+Laravel Installer 4.5.1
+
+
+--------------------------------------------------------------
+C:\Users\alams>cd ./blog9
+
+C:\Users\alams\blog9>php artisan serve-->To run Your laravel project
+
+In oredr to start the deveopment server
+
+--------------------------------------------------------------

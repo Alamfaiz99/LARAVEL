@@ -1,0 +1,46 @@
+How can we access views outside the views folder?(VVVIMP Questions)
+------------------------------------------------------------------
+Steps1:
+Create a Custom View Path:
+-->Inside resources directory > customviews > create files fileame.blade.php
+--------------------------------------------------------------------------
+step2:
+Add a Custom View Path in a Service Provider:
+Open a service provider, which is a class responsible for registering various application services. 
+You can create a new service provider or use an existing one.
+ You need to import the View facade at the top of the file.
+
+In boot method of sevice provider
+
+use the View::addLocation method to add your custom view path.
+
+This will instruct Laravel to also look for views in the specified directory.
+---------------------------------------------------------------------------------
+use Illuminate\Support\Facades\View;
+use Illuminate\Support\ServiceProvider;
+
+class CustomViewServiceProvider extends ServiceProvider
+{
+    public function boot()
+    {
+        View::addLocation(resource_path('customviews'));
+    }
+
+    // ...
+}
+------------------------------------------------------------------------------------
+step3:Register the Service Provider:
+You need to register your custom service provider in the config/app.php configuration file under the providers array.
+'providers' => [
+    // ...
+    App\Providers\CustomViewServiceProvider::class,
+],
+------------------------------------------------------------------------------------
+Place Your Views:
+Create the "customviews" directory within the "resources" directory, and then place your Blade view files in this directory. You can organize your views within subdirectories as needed.
+---------------------------------------------------------------------------------------
+Access Views:
+You can now reference the views stored in your custom view path just like you would with views in the default "resources/views" directory. For example:
+
+return view('customview.index'); // This will load the "index.blade.php" from the "customviews" directory.
+----------------------------------------------------------------------------------------
